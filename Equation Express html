@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Equation Express</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Equation Express</h1>
+  <p id="q">5 + 3 = ?</p>
+  <input type="number" id="ans">
+  <button onclick="check()">Submit</button>
+  <p id="result"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
